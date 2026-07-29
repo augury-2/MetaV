@@ -104,6 +104,8 @@ Table 1 synthesises the most directly relevant studies by theme, method and cont
 
 The framework is best understood not as a technical exercise but as a flexible decision-support system that helps firms align their supplier portfolios with corporate sustainability strategy under a mandatory-disclosure regime. It supports a sense-decide-reconfigure cycle: BRSR disclosure provides the sensing capability, fuzzy weighting and ranking provide the decision logic, and the resulting tiers translate into reconfiguration options for the supply base. Concretely, it addresses two decisions that every ESG-conscious buyer faces. Which sustainability dimensions should carry the most weight in sourcing, given regulatory and stakeholder salience? And how do candidate suppliers compare against an ideal environmental profile once those priorities are applied? The first decision is supported by the Fuzzy Best-Worst Method, which translates managerial judgements about the strategic importance of ESG dimensions into transparent, internally consistent weights; the second is supported by Fuzzy TOPSIS, which converts disclosed performance into a ranked portfolio suitable for retention, development or exit decisions. Both steps are populated exclusively from BRSR disclosure, so the tool is replicable, audit-ready and directly tied to the regulatory regime that shapes firm strategy. Figure 1 summarises the process from ESG reporting through criteria construction and weighting to supplier ranking and reconfiguration decisions; the underlying fuzzy arithmetic, linguistic scales and distance formulae are consolidated in Appendix A so that the main text remains focused on the flexibility and governance logic.
 
+![Figure 1](figures/figure1.png)
+
 **Figure 1.** Flexible decision process: from BRSR disclosure to adaptive supplier-governance decisions
 
 ### 3.2 BRSR as Strategic Data Infrastructure for Adaptive Governance
@@ -189,6 +191,8 @@ At the indicator level, GHG emission intensity (C2.1) carries the highest global
 
 *Note.* (C) = cost criterion (lower raw value is better; ratings inverted before ranking). Global weight = group weight x within-group local weight.
 
+![Figure 2](figures/figure2.png)
+
 **Figure 2.** Global sub-criteria weights derived from the Fuzzy BWM. Dashed lines separate the four criterion groups; global weights sum to 1.000. GHG intensity (C2.1) and renewable-energy share (C2.2) dominate.
 
 ### 4.2 Supplier Portfolio: Rankings and Adaptive Differentiation
@@ -209,6 +213,8 @@ Applying Fuzzy TOPSIS produces a clearly differentiated supplier portfolio (Tabl
 | 8 | Aurobindo Pharma | 0.4675 | 0.4007 | 0.4615 | Weak performer | -0.233 |
 
 *Note.* CC = closeness coefficient (0-1); higher indicates closer approach to the ideal green profile. Sample mean CC = 0.6944. Data source: BRSR FY 2024-25 filings, BSE/NSE.
+
+![Figure 3](figures/figure3.png)
 
 **Figure 3.** Supplier closeness coefficients and final rankings (n = 8). Dashed line = sample mean CC (0.6944).
 
@@ -234,6 +240,8 @@ Disaggregating performance by group (Table 6, Figure 4) shows that differentiati
 
 *Note.* Scores are defuzzified group ratings from the fuzzy decision matrix; higher is better. FPIS = fuzzy positive ideal solution; FNIS = fuzzy negative ideal solution.
 
+![Figure 4](figures/figure4.png)
+
 **Figure 4.** Group performance profiles for all eight suppliers (radar). Bold lines = top-four suppliers; dashed lines = remaining suppliers. Higher = better.
 
 ### 4.4 Robustness of the Conclusions
@@ -255,6 +263,8 @@ The rankings are highly robust to alternative priorities. Across the eight weigh
 | Spearman rho vs. S0 |  | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 0.976 | 1.000 |
 
 *Note.* Only scenario S6 (environment-only) alters any rank (Alkem and Lupin swap). rho = Spearman correlation with the S0 baseline; rho > 0.90 indicates stable rankings. Scenario weight configurations are reported in Appendix A, Table A5.
+
+![Figure 5](figures/figure5.png)
 
 **Figure 5.** Sensitivity heatmap of supplier rankings across weight scenarios (S0-S7). Cell values denote rank (1 = best). Spearman rho >= 0.976 across all scenarios.
 
@@ -457,6 +467,8 @@ Fuzzy set theory (Zadeh, 1965) represents imprecise, linguistically expressed in
 - Defuzzification (centre of area): BNP(A) = (l + m + u) / 3
 
 The best non-fuzzy performance (BNP) value converts fuzzy weights and closeness coefficients to crisp scores for reporting and ranking (Chen, 2000).
+
+![Figure A1](figures/figureA1.png)
 
 **Figure A1.** Triangular fuzzy number (l, m, u): membership function.
 
