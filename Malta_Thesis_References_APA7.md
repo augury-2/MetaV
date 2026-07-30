@@ -1,0 +1,152 @@
+# Consolidated APA 7 Reference List
+
+*Optimisation of Malta (Citrus sinensis) Distribution Channels in the Garhwal Region of Uttarakhand*
+
+146 entries, alphabetical. Italics are marked with `*...*`.
+
+- Acharya, S. S., & Agarwal, N. L. (2011). *Agricultural marketing in India* (5th ed.). Oxford & IBH Publishing.
+- Adetoyinbo, A., Trienekens, J., & Otter, V. (2023). Contingent resource-based view of food netchain organization and firm performance: A comprehensive quantitative framework. *Supply Chain Management: An International Journal, 28*(6), 957–974. https://doi.org/10.1108/SCM-11-2022-0448
+- Ahumada, O., & Villalobos, J. R. (2009). Application of planning models in the agri-food supply chain: A review. *European Journal of Operational Research, 196*(1), 1–20. https://doi.org/10.1016/j.ejor.2008.02.014
+- Amorim, P., Günther, H.-O., & Almada-Lobo, B. (2012). Multi-objective integrated production and distribution planning of perishable products. *International Journal of Production Economics, 138*(1), 89–101. https://doi.org/10.1016/j.ijpe.2012.03.005
+- Anand, J., Rawat, J. S., Rawat, V., Singh, B., Khanduri, V. P., Riyal, M. K., Kumar, P., & Cabral-Pinto, M. M. S. (2022). Climatic and altitudinal variation in physicochemical properties of *Citrus sinensis* in India. *Land, 11*(11), 2033. https://doi.org/10.3390/land11112033
+- Aramyan, L. H., Oude Lansink, A. G. J. M., van der Vorst, J. G. A. J., & van Kooten, O. (2007). Performance measurement in agri-food supply chains: A case study. *Supply Chain Management: An International Journal, 12*(4), 304–315. https://doi.org/10.1108/13598540710759826
+- Ayhan, M. B. (2013). A fuzzy AHP approach for supplier selection problem: A case study in a gear motor company. *International Journal of Managing Value and Supply Chains, 4*(3), 11–23. https://doi.org/10.5121/ijmvsc.2013.4302
+- Balaji, M., & Arshinder, K. (2016). Modeling the causes of food wastage in Indian perishable food supply chain. *Resources, Conservation and Recycling, 114*, 153–167. https://doi.org/10.1016/j.resconrec.2016.07.016
+- Banaeian, N., Mobli, H., Fahimnia, B., Nielsen, I. E., & Omid, M. (2018). Green supplier selection using fuzzy group decision making methods: A case study from the agri-food industry. *Computers & Operations Research, 89*, 337–347. https://doi.org/10.1016/j.cor.2016.02.015
+- Barney, J. (1991). Firm resources and sustained competitive advantage. *Journal of Management, 17*(1), 99–120. https://doi.org/10.1177/014920639101700108
+- Barney, J. B. (1995). Looking inside for competitive advantage. *Academy of Management Perspectives, 9*(4), 49–61. https://doi.org/10.5465/ame.1995.9512032192
+- Barney, J. B. (2012). Purchasing, supply chain management and sustained competitive advantage: The relevance of resource-based theory. *Journal of Supply Chain Management, 48*(2), 3–6. https://doi.org/10.1111/j.1745-493X.2012.03265.x
+- Behzadian, M., Otaghsara, S. K., Yazdani, M., & Ignatius, J. (2012). A state-of the-art survey of TOPSIS applications. *Expert Systems with Applications, 39*(17), 13051–13069. https://doi.org/10.1016/j.eswa.2012.05.056
+- Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., & Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: A primer. *Frontiers in Public Health, 6*, 149. https://doi.org/10.3389/fpubh.2018.00149
+- Boote, D. N., & Beile, P. (2005). Scholars before researchers: On the centrality of the dissertation literature review in research preparation. *Educational Researcher, 34*(6), 3–15. https://doi.org/10.3102/0013189X034006003
+- Briggs, S. R., & Cheek, J. M. (1986). The role of factor analysis in the development and evaluation of personality scales. *Journal of Personality, 54*(1), 106–148. https://doi.org/10.1111/j.1467-6494.1986.tb00391.x
+- Brislin, R. W. (1970). Back-translation for cross-cultural research. *Journal of Cross-Cultural Psychology, 1*(3), 185–216. https://doi.org/10.1177/135910457000100301
+- Bryman, A. (2016). *Social research methods* (5th ed.). Oxford University Press.
+- Buckley, J. J. (1985). Fuzzy hierarchical analysis. *Fuzzy Sets and Systems, 17*(3), 233–247. https://doi.org/10.1016/0165-0114(85)90090-9
+- Cadilhon, J. J., Fearne, A. P., Tam, P. T. G., Moustier, P., & Poole, N. D. (2006). Quality incentives and dependence in vegetable supply chains to Ho Chi Minh City. *Acta Horticulturae, 699*, 111–118. https://doi.org/10.17660/ActaHortic.2006.699.11
+- Chang, D.-Y. (1996). Applications of the extent analysis method on fuzzy AHP. *European Journal of Operational Research, 95*(3), 649–655. https://doi.org/10.1016/0377-2217(95)00300-2
+- Chen, C.-T. (2000). Extensions of the TOPSIS for group decision-making under fuzzy environment. *Fuzzy Sets and Systems, 114*(1), 1–9. https://doi.org/10.1016/S0165-0114(97)00377-1
+- Choudhary, D., Kunwar, M. S., & Rasul, G. (2015). From farmers to entrepreneurs—Strengthening Malta orange value chains through institutional development in Uttarakhand, India. *Mountain Research and Development, 35*(1), 4–15. https://doi.org/10.1659/MRD-JOURNAL-D-14-00036.1
+- Churchill, G. A. (1979). A paradigm for developing better measures of marketing constructs. *Journal of Marketing Research, 16*(1), 64–73. https://doi.org/10.1177/002224377901600110
+- Cochran, W. G. (1977). *Sampling techniques* (3rd ed.). John Wiley & Sons.
+- Creswell, J. W., & Creswell, J. D. (2018). *Research design: Qualitative, quantitative, and mixed methods approaches* (5th ed.). SAGE Publications.
+- Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. *Psychometrika, 16*(3), 297–334. https://doi.org/10.1007/BF02310555
+- Dangwal, M., & Bhandari, A. (2025). Impact of minimum support price on farmer's income: A study in Uttarakhand state of India. *Journal of Mountain Research, 20*(2), 335–344. https://doi.org/10.51220/jmr.v20-i2.37
+- DeVellis, R. F. (2017). *Scale development: Theory and applications* (4th ed.). SAGE Publications.
+- DeVellis, R. F., & Thorpe, C. T. (2021). *Scale development: Theory and applications* (5th ed.). SAGE Publications.
+- Directorate of Horticulture and Food Processing, Uttarakhand. (2023). *Annual progress report and horticultural statistics of Uttarakhand 2022–23*. Government of Uttarakhand.
+- Figueira, J., Mousseau, V., & Roy, B. (2005). ELECTRE methods. In J. Figueira, S. Greco, & M. Ehrgott (Eds.), *Multiple criteria decision analysis: State of the art surveys* (pp. 133–153). Springer. https://doi.org/10.1007/0-387-23081-5_4
+- Food and Agriculture Organization of the United Nations. (2021). *The state of food and agriculture 2021: Making agrifood systems more resilient to shocks and stresses*. FAO. https://doi.org/10.4060/cb4476en
+- Fornell, C., & Larcker, D. F. (1981). Evaluating structural equation models with unobservable variables and measurement error. *Journal of Marketing Research, 18*(1), 39–50. https://doi.org/10.1177/002224378101800104
+- Frazier, G. L. (1999). Organizing and managing channels of distribution. *Journal of the Academy of Marketing Science, 27*(2), 226–240. https://doi.org/10.1177/0092070399272007
+- Gajanana, T. M., Sudha, M., Saxena, A. K., & Dakshinamoorthy, V. (2010). Post-harvest handling, marketing and assessment of losses in papaya. *Acta Horticulturae, 851*, 519–526. https://doi.org/10.17660/ActaHortic.2010.851.79
+- Gardas, B. B., Raut, R. D., & Narkhede, B. (2017). Modeling causal factors of post-harvesting losses in vegetable and fruit supply chain: An Indian perspective. *Renewable and Sustainable Energy Reviews, 80*, 1355–1371. https://doi.org/10.1016/j.rser.2017.05.259
+- Gardas, B. B., Raut, R. D., & Narkhede, B. (2018). Evaluating critical causal factors for post-harvest losses (PHL) in the fruit and vegetables supply chain in India using the DEMATEL approach. *Journal of Cleaner Production, 199*, 47–61. https://doi.org/10.1016/j.jclepro.2018.07.153
+- Gaski, J. F. (1984). The theory of power and conflict in channels of distribution. *Journal of Marketing, 48*(3), 9–29. https://doi.org/10.1177/002224298404800303
+- Ghahremani-Nahr, J., & Ghaderi, A. (2022). Robust-fuzzy optimization approach in design of sustainable lean supply chain network under uncertainty. *Computational and Applied Mathematics, 41*(6), 260. https://doi.org/10.1007/s40314-022-01936-w
+- Goswami, S., Bijalwan, A., & Bahuguna, K. (2020). Malta (*Citrus sinensis*): An important but underrated fruit of Uttarakhand, India. *International Journal of Current Microbiology and Applied Sciences, 9*(8), 2852–2855. https://doi.org/10.20546/ijcmas.2020.908.320
+- Government of India. (2018). *Report of the Committee on Doubling Farmers' Income* (Vols. 1–14). Ministry of Agriculture and Farmers Welfare.
+- Government of Uttarakhand. (2022). *Uttarakhand at a glance 2021–22*. Directorate of Economics and Statistics, Government of Uttarakhand.
+- Government of Uttarakhand. (2023). *Horticulture sector profile and mission-mode interventions in Uttarakhand*. Department of Horticulture and Food Processing.
+- Government of Uttarakhand. (2024). *Minimum support price notification for Malta and hill lemon (galgal), marketing season 2024–25*. Department of Horticulture and Food Processing.
+- Govindan, K., & Jepsen, M. B. (2016). ELECTRE: A comprehensive literature review on methodologies and applications. *European Journal of Operational Research, 250*(1), 1–29. https://doi.org/10.1016/j.ejor.2015.07.019
+- Govindan, K., Rajendran, S., Sarkis, J., & Murugesan, P. (2015). Multi criteria decision making approaches for green supplier evaluation and selection: A literature review. *Journal of Cleaner Production, 98*, 66–83. https://doi.org/10.1016/j.jclepro.2013.06.046
+- Goyal, A. (2010). Information, direct access to farmers, and rural market performance in central India. *American Economic Journal: Applied Economics, 2*(3), 22–45. https://doi.org/10.1257/app.2.3.22
+- Grant, R. M. (1991). The resource-based theory of competitive advantage: Implications for strategy formulation. *California Management Review, 33*(3), 114–135. https://doi.org/10.2307/41166664
+- Guha, R. (2000). *The unquiet woods: Ecological change and peasant resistance in the Himalaya* (Expanded ed.). University of California Press.
+- Guleria, A., Kumar, S., & Singh, V. (2022). To study the marketing efficiency of apple (*Malus domestica*) in Kullu district of Himachal Pradesh. *Asian Journal of Agricultural Extension, Economics & Sociology, 40*(10), 419–425. https://doi.org/10.9734/ajaees/2022/v40i1031091
+- Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage Learning.
+- Hart, C. (2018). *Doing a literature review: Releasing the research imagination* (2nd ed.). SAGE Publications.
+- Hatami-Marbini, A., & Tavana, M. (2011). An extension of the ELECTRE I method for group decision-making under a fuzzy environment. *Omega, 39*(4), 373–386. https://doi.org/10.1016/j.omega.2010.09.001
+- Hayashi, K. (2000). Multicriteria analysis for agricultural resource management: A critical survey and future perspectives. *European Journal of Operational Research, 122*(2), 486–500. https://doi.org/10.1016/S0377-2217(99)00249-0
+- Hinkin, T. R. (1998). A brief tutorial on the development of measures for use in survey questionnaires. *Organizational Research Methods, 1*(1), 104–121. https://doi.org/10.1177/109442819800100106
+- Hitchcock, F. L. (1941). The distribution of a product from several sources to numerous localities. *Journal of Mathematics and Physics, 20*(1–4), 224–230. https://doi.org/10.1002/sapm1941201224
+- Hunt, S. D., & Davis, D. F. (2008). Grounding supply chain management in resource-advantage theory. *Journal of Supply Chain Management, 44*(1), 10–21. https://doi.org/10.1111/j.1745-493X.2008.00042.x
+- Ishizaka, A., & Nemery, P. (2013). *Multi-criteria decision analysis: Methods and software*. John Wiley & Sons. https://doi.org/10.1002/9781118644898
+- The jamovi project. (2023). *jamovi* (Version 2.3) [Computer software]. https://www.jamovi.org
+- Jha, S. N., Vishwakarma, R. K., Ahmad, T., Rai, A., & Dixit, A. K. (2015). *Report on assessment of quantitative harvest and post-harvest losses of major crops and commodities in India*. ICAR–All India Coordinated Research Project on Post-Harvest Technology, ICAR-CIPHET, Ludhiana.
+- Joshi, R., Banwet, D. K., & Shankar, R. (2009). Indian cold chain: Modeling the inhibitors. *British Food Journal, 111*(11), 1260–1283. https://doi.org/10.1108/00070700911001077
+- Joshi, R., Banwet, D. K., & Shankar, R. (2011). A Delphi-AHP-TOPSIS based benchmarking framework for performance improvement of a cold chain. *Expert Systems with Applications, 38*(8), 10170–10182. https://doi.org/10.1016/j.eswa.2011.02.072
+- Juran, J. M. (1951). *Quality control handbook*. McGraw-Hill.
+- Kader, A. A. (2005). Increasing food availability by reducing postharvest losses of fresh produce. *Acta Horticulturae, 682*, 2169–2176. https://doi.org/10.17660/ActaHortic.2005.682.296
+- Kahraman, C., Cebeci, U., & Ulukan, Z. (2003). Multi-criteria supplier selection using fuzzy AHP. *Logistics Information Management, 16*(6), 382–394. https://doi.org/10.1108/09576050310503367
+- Kaleka, A., & Morgan, N. A. (2019). How marketing capabilities and current performance drive strategic intentions in international markets. *Industrial Marketing Management, 78*, 108–121. https://doi.org/10.1016/j.indmarman.2017.02.001
+- Kilic, H. S., Zaim, S., & Delen, D. (2015). Selecting “the best” ERP system for SMEs using a combination of ANP and PROMETHEE methods. *Expert Systems with Applications, 42*(5), 2343–2352. https://doi.org/10.1016/j.eswa.2014.10.034
+- Kilincci, O., & Onal, S. A. (2011). Fuzzy AHP approach for supplier selection in a washing machine company. *Expert Systems with Applications, 38*(8), 9656–9664. https://doi.org/10.1016/j.eswa.2011.01.159
+- Kish, L. (1965). *Survey sampling*. John Wiley & Sons.
+- Kitinoja, L., & Kader, A. A. (2015). *Measuring postharvest losses of fresh fruits and vegetables in developing countries* (PEF White Paper No. 15-02). The Postharvest Education Foundation.
+- Kohls, R. L., & Uhl, J. N. (2002). *Marketing of agricultural products* (9th ed.). Prentice Hall.
+- Kotler, P., & Keller, K. L. (2016). *Marketing management* (15th ed.). Pearson Education.
+- Kraaijenbrink, J., Spender, J.-C., & Groen, A. J. (2010). The resource-based view: A review and assessment of its critiques. *Journal of Management, 36*(1), 349–372. https://doi.org/10.1177/0149206309350775
+- Krejcie, R. V., & Morgan, D. W. (1970). Determining sample size for research activities. *Educational and Psychological Measurement, 30*(3), 607–610. https://doi.org/10.1177/001316447003000308
+- van Laarhoven, P. J. M., & Pedrycz, W. (1983). A fuzzy extension of Saaty's priority theory. *Fuzzy Sets and Systems, 11*(1–3), 229–241. https://doi.org/10.1016/S0165-0114(83)80082-7
+- Ladaniya, M. S. (2008). *Citrus fruit: Biology, technology and evaluation*. Academic Press. https://doi.org/10.1016/B978-0-12-374130-1.X5001-6
+- Lawshe, C. H. (1975). A quantitative approach to content validity. *Personnel Psychology, 28*(4), 563–575. https://doi.org/10.1111/j.1744-6570.1975.tb01393.x
+- Levy, Y., & Ellis, T. J. (2006). A systems approach to conduct an effective literature review in support of information systems research. *Informing Science: The International Journal of an Emerging Transdiscipline, 9*, 181–212. https://doi.org/10.28945/479
+- Likert, R. (1932). A technique for the measurement of attitudes. *Archives of Psychology, 140*, 1–55.
+- Lynn, M. R. (1986). Determination and quantification of content validity. *Nursing Research, 35*(6), 382–385. https://doi.org/10.1097/00006199-198611000-00017
+- MacKenzie, S. B., Podsakoff, P. M., & Podsakoff, N. P. (2011). Construct measurement and validation procedures in MIS and behavioral research: Integrating new and existing techniques. *MIS Quarterly, 35*(2), 293–334. https://doi.org/10.2307/23044045
+- Markelova, H., & Mwangi, E. (2010). Collective action for smallholder market access: Evidence and implications for Africa. *Review of Policy Research, 27*(5), 621–640. https://doi.org/10.1111/j.1541-1338.2010.00462.x
+- Ministry of Agriculture and Farmers Welfare. (2021). *Horticultural statistics at a glance 2021*. Horticulture Statistics Division, Government of India.
+- Ministry of Agriculture and Farmers Welfare. (2023). *Second advance estimates of area and production of horticultural crops 2022–23*. Government of India.
+- Mulvey, J. M., Vanderbei, R. J., & Zenios, S. A. (1995). Robust optimization of large-scale systems. *Operations Research, 43*(2), 264–281. https://doi.org/10.1287/opre.43.2.264
+- Murthy, D. S., Gajanana, T. M., Sudha, M., & Dakshinamoorthy, V. (2009). Marketing and post-harvest losses in fruits: Its implications on availability and economy. *Indian Journal of Agricultural Economics, 64*(2), 259–275. https://doi.org/10.22004/ag.econ.204629
+- Murthy, D. S., Sudha, M., Hegde, M. R., & Dakshinamoorthy, V. (2009). Technical efficiency and its determinants in tomato production in Karnataka, India: Data envelopment analysis (DEA) approach. *Agricultural Economics Research Review, 22*(2), 215–224. https://doi.org/10.22004/ag.econ.57384
+- Nakandala, D., Lau, H., & Zhang, J. (2016). Cost-optimization modelling for fresh food quality and transportation. *Industrial Management & Data Systems, 116*(3), 564–583. https://doi.org/10.1108/IMDS-04-2015-0151
+- National Horticulture Board. (2022). *Horticultural statistics at a glance 2021–22*. Ministry of Agriculture and Farmers Welfare, Government of India.
+- National Horticulture Board. (2023). *Area and production statistics of horticultural crops 2022–23*. Ministry of Agriculture and Farmers Welfare, Government of India.
+- Negi, S. (2018). *Developing a framework to improve supply chain efficiency of fruits and vegetables sector* [Doctoral dissertation, University of Petroleum and Energy Studies]. UPES Institutional Repository. http://hdl.handle.net/123456789/2983
+- Negi, S., & Anand, N. (2014). Supply chain efficiency: An insight from fruits and vegetables sector in India. *Journal of Operations and Supply Chain Management, 7*(2), 154–167. https://doi.org/10.12660/joscmv7n2p154-167
+- Negi, S., & Anand, N. (2015). Supply chain of fruits & vegetables agribusiness in Uttarakhand (India): Major issues and challenges. *Journal of Supply Chain Management Systems, 4*(1–2), 43–57. https://doi.org/10.21863/jscms/2015.4.1and2.005
+- Negi, S., & Anand, N. (2018). Wastage and cold chain infrastructure relationship in Indian food supply chain. In N. Anand & N. Grover (Eds.), *Handbook of research on supply chain management for sustainable development* (pp. 247–266). IGI Global. https://doi.org/10.4018/978-1-5225-3056-5.ch014
+- Negi, S., & Anand, N. (2019). Wholesalers perspectives on mango supply chain efficiency in India. *Journal of Agribusiness in Developing and Emerging Economies, 9*(2), 175–200. https://doi.org/10.1108/JADEE-02-2018-0032
+- NITI Aayog. (2018). *Contributing to sustainable development in the Indian Himalayan Region: Key messages from five thematic reports and way forward*. Government of India.
+- Nozari, H., & Ghahremani-Nahr, J. (2023). A comprehensive strategic-tactical multi-objective sustainable supply chain model with human resources considerations. *Supply Chain Analytics, 4*, 100044. https://doi.org/10.1016/j.sca.2023.100044
+- Nunnally, J. C., & Bernstein, I. H. (1994). *Psychometric theory* (3rd ed.). McGraw-Hill.
+- Opricovic, S., & Tzeng, G.-H. (2004). Compromise solution by MCDM methods: A comparative analysis of VIKOR and TOPSIS. *European Journal of Operational Research, 156*(2), 445–455. https://doi.org/10.1016/S0377-2217(03)00020-1
+- Pamučar, D., & Ćirović, G. (2015). The selection of transport and handling resources in logistics centers using Multi-Attributive Border Approximation area Comparison (MABAC). *Expert Systems with Applications, 42*(6), 3016–3028. https://doi.org/10.1016/j.eswa.2014.11.057
+- Patton, M. Q. (2015). *Qualitative research and evaluation methods: Integrating theory and practice* (4th ed.). SAGE Publications.
+- Podsakoff, P. M., MacKenzie, S. B., Lee, J.-Y., & Podsakoff, N. P. (2003). Common method biases in behavioral research: A critical review of the literature and recommended remedies. *Journal of Applied Psychology, 88*(5), 879–903. https://doi.org/10.1037/0021-9010.88.5.879
+- Polit, D. F., & Beck, C. T. (2006). The content validity index: Are you sure you know what's being reported? Critique and recommendations. *Research in Nursing & Health, 29*(5), 489–497. https://doi.org/10.1002/nur.20147
+- Prakash, C., & Barua, M. K. (2016). An analysis of integrated robust hybrid model for third-party reverse logistics partner selection under fuzzy environment. *Resources, Conservation and Recycling, 108*, 63–81. https://doi.org/10.1016/j.resconrec.2015.12.011
+- Priem, R. L., & Butler, J. E. (2001). Is the resource-based “view” a useful perspective for strategic management research? *Academy of Management Review, 26*(1), 22–40. https://doi.org/10.5465/amr.2001.4011928
+- Rasul, G. (2010). The role of the Himalayan mountain systems in food security and agricultural sustainability in South Asia. *International Journal of Rural Management, 6*(1), 95–116. https://doi.org/10.1177/097300521100600105
+- Reardon, T., & Minten, B. (2011). Surprised by supermarkets: Diffusion of modern food retail in India. *Journal of Agribusiness in Developing and Emerging Economies, 1*(2), 134–161. https://doi.org/10.1108/20440831111167155
+- Reardon, T., Chen, K. Z., Minten, B., Adriano, L., Dao, T. A., Wang, J., & Das Gupta, S. (2014). The quiet revolution in Asia's rice value chains. *Annals of the New York Academy of Sciences, 1331*(1), 106–118. https://doi.org/10.1111/nyas.12391
+- Rezaei, J. (2015). Best-worst multi-criteria decision-making method. *Omega, 53*, 49–57. https://doi.org/10.1016/j.omega.2014.11.009
+- Rindfleisch, A., Malter, A. J., Ganesan, S., & Moorman, C. (2008). Cross-sectional versus longitudinal survey research: Concepts, findings, and guidelines. *Journal of Marketing Research, 45*(3), 261–279. https://doi.org/10.1509/jmkr.45.3.261
+- Roy, B. (1991). The outranking approach and the foundations of ELECTRE methods. *Theory and Decision, 31*(1), 49–73. https://doi.org/10.1007/BF00134132
+- Saaty, T. L. (1980). *The analytic hierarchy process: Planning, priority setting, resource allocation*. McGraw-Hill.
+- Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson Education.
+- Saxena, A., & Singh, A. (2015). Marketing of sweet orange (malta) in Uttarakhand. *International Journal of Commerce and Business Management, 8*(2), 290–295. https://doi.org/10.15740/HAS/IJCBM/8.2/290-295
+- Sekaran, U., & Bougie, R. (2020). *Research methods for business: A skill-building approach* (8th ed.). John Wiley & Sons.
+- Sen, A. (1999). *Development as freedom*. Oxford University Press.
+- Sevkli, M. (2010). An application of the fuzzy ELECTRE method for supplier selection. *International Journal of Production Research, 48*(12), 3393–3405. https://doi.org/10.1080/00207540902814355
+- Sharma, K., Kumar, R., & Kumar, A. (2022). Himalayan horticulture produce supply chain disruptions and sustainable business solution—A case study on kiwi fruit in Uttarakhand. *Horticulturae, 8*(11), 1018. https://doi.org/10.3390/horticulturae8111018
+- Sharma, K., Kumar, R., Kumar, A., Balabantaray, S., & Arora, M. (2023). A digital ecosystem for sustainable fruit supply chain in Uttarakhand: A comprehensive review. *Environment, Development and Sustainability, 26*(5), 13217–13252. https://doi.org/10.1007/s10668-023-04142-8
+- Shepherd, G. S. (1965). *Marketing farm products: Economic analysis* (5th ed.). Iowa State University Press.
+- Shukla, M., & Jharkharia, S. (2013). Agri-fresh produce supply chain management: A state-of-the-art literature review. *International Journal of Operations & Production Management, 33*(2), 114–158. https://doi.org/10.1108/01443571311295608
+- Singh, R. K., & Sharma, M. K. (2014). Selecting competitive supply chain using fuzzy AHP and extent analysis. *Journal of Industrial and Production Engineering, 31*(8), 524–538. https://doi.org/10.1080/21681015.2014.999723
+- Snyder, H. (2019). Literature review as a research methodology: An overview and guidelines. *Journal of Business Research, 104*, 333–339. https://doi.org/10.1016/j.jbusres.2019.07.039
+- Soysal, M., Bloemhof-Ruwaard, J. M., Haijema, R., & van der Vorst, J. G. A. J. (2015). Modeling an inventory routing problem for perishable products with environmental considerations and demand uncertainty. *International Journal of Production Economics, 164*, 118–133. https://doi.org/10.1016/j.ijpe.2015.03.008
+- Spector, P. E. (2019). Do not cross me: Optimizing the use of cross-sectional designs. *Journal of Business and Psychology, 34*(2), 125–137. https://doi.org/10.1007/s10869-018-09613-1
+- Stern, L. W., & Reve, T. (1980). Distribution channels as political economies: A framework for comparative analysis. *Journal of Marketing, 44*(3), 52–64. https://doi.org/10.1177/002224298004400306
+- Stern, L. W., El-Ansary, A. I., & Coughlan, A. T. (1996). *Marketing channels* (5th ed.). Prentice Hall.
+- Stević, Ž., Pamučar, D., Puška, A., & Chatterjee, P. (2020). Sustainable supplier selection in healthcare industries using a new MCDM method: Measurement of alternatives and ranking according to COmpromise solution (MARCOS). *Computers & Industrial Engineering, 140*, 106231. https://doi.org/10.1016/j.cie.2019.106231
+- Tabachnick, B. G., & Fidell, L. S. (2019). *Using multivariate statistics* (7th ed.). Pearson Education.
+- Taber, K. S. (2018). The use of Cronbach's alpha when developing and reporting research instruments in science education. *Research in Science Education, 48*(6), 1273–1296. https://doi.org/10.1007/s11165-016-9602-1
+- Taha, H. A. (2017). *Operations research: An introduction* (10th ed.). Pearson Education.
+- Teece, D. J., Pisano, G., & Shuen, A. (1997). Dynamic capabilities and strategic management. *Strategic Management Journal, 18*(7), 509–533. https://doi.org/10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z
+- Trebbin, A. (2014). Linking small farmers to modern retail through producer organizations—Experiences with producer companies in India. *Food Policy, 45*, 35–44. https://doi.org/10.1016/j.foodpol.2013.12.007
+- Triantaphyllou, E. (2000). *Multi-criteria decision making methods: A comparative study*. Kluwer Academic Publishers. https://doi.org/10.1007/978-1-4757-3157-6
+- Tsolakis, N. K., Keramydas, C. A., Toka, A. K., Aidonis, D. A., & Iakovou, E. T. (2014). Agrifood supply chain management: A comprehensive hierarchical decision-making framework and a critical taxonomy. *Biosystems Engineering, 120*, 47–64. https://doi.org/10.1016/j.biosystemseng.2013.10.014
+- Tulachan, P. M. (2001). Mountain agriculture in the Hindu Kush–Himalaya: A regional comparative analysis. *Mountain Research and Development, 21*(3), 260–267. https://doi.org/10.1659/0276-4741(2001)021[0260:MAITHK]2.0.CO;2
+- U.S. Department of Agriculture, Agricultural Research Service. (2014). *USDA national nutrient database for standard reference, release 27*. Nutrient Data Laboratory.
+- Uyanik, M. (2023). Resource-based view in marketing literature. *Journal of Business and Management Studies, 5*(4), 29–39. https://doi.org/10.32996/jbms.2023.5.4.4
+- Wang, Y.-M., Luo, Y., & Hua, Z. (2008). On the extent analysis method for fuzzy AHP and its applications. *European Journal of Operational Research, 186*(2), 735–747. https://doi.org/10.1016/j.ejor.2007.01.050
+- Webster, J., & Watson, R. T. (2002). Analyzing the past to prepare for the future: Writing a literature review. *MIS Quarterly, 26*(2), xiii–xxiii. https://doi.org/10.2307/4132319
+- Wernerfelt, B. (1984). A resource-based view of the firm. *Strategic Management Journal, 5*(2), 171–180. https://doi.org/10.1002/smj.4250050207
+- Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
+- Zadeh, L. A. (1965). Fuzzy sets. *Information and Control, 8*(3), 338–353. https://doi.org/10.1016/S0019-9958(65)90241-X
+- Zimmermann, H.-J. (2001). *Fuzzy set theory—and its applications* (4th ed.). Springer. https://doi.org/10.1007/978-94-010-0646-0
+- Zopounidis, C., & Doumpos, M. (2002). Multicriteria classification and sorting methods: A literature review. *European Journal of Operational Research, 138*(2), 229–246. https://doi.org/10.1016/S0377-2217(01)00243-0
