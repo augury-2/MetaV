@@ -443,7 +443,7 @@ magnitudes; halving them roughly quadruples the required sample sizes.
    quadratic asymmetry, the descending-arm test is mildly conservative and the ascending-arm test
    mildly liberal. Neither reverses at the observed effect sizes.
 
-2. **The quadratic turning point is an upward-biased estimator of *S\**** when the underlying
+2. **The quadratic turning point is an upward-biased estimator of the flip point** when the underlying
    function is concave-saturating minus convex-accelerating: .406 estimated versus .353 analytic. Any
    empirical estimate of a flip point from a polynomial model inherits this bias. A segmented or
    shape-constrained estimator would be preferable and is recommended for the confirmatory study.
@@ -541,12 +541,15 @@ python run_all.py --skip-mc  # everything except the Monte Carlo study
 
 python calibrate_micro.py    # micro effect-size calibration
 python calibrate_abm.py      # Study 4 regime-reachability search
-python verify_manuscript.py  # checks all 406 numeric claims in MANUSCRIPT.md
+python verify_manuscript.py  # checks all 408 numeric claims in MANUSCRIPT.md
+
+cd ../../paper
+python build_documents.py    # builds dist/*.html (figures embedded) and dist/*.docx
 ```
 
 `verify_manuscript.py` is the important one. It re-reads every results table and asserts that each
 numeric claim in the manuscript matches, exiting non-zero on any mismatch. It currently reports
-**406/406 claims verified**. It caught eleven genuine errors during drafting, including one
+**408/408 claims verified**. It caught eleven genuine errors during drafting, including one
 substantive misstatement (a product-term interaction described as non-significant when it is
 significant at *p* = .006). Any future change to the model or parameters that invalidates a
 manuscript claim will be caught by running it.

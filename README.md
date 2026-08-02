@@ -37,6 +37,9 @@ MetaV/
 │                                  operationalizations, 22 propositions
 ├── paper/
 │   ├── MANUSCRIPT.md              The full paper
+│   ├── build_documents.py         Builds the .html / .docx versions below
+│   ├── dist/                      Downloadable: self-contained HTML (figures
+│   │                              embedded, print to PDF) and Word .docx
 │   ├── WEB_APPENDIX.md            Item wording, stimuli, complete ABM equations,
 │   │                              calibration search, robustness, results index
 │   └── POSITIONING_MEMO.md        Journal fit, the five reviewer objections that
