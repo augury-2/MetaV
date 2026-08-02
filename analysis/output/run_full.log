@@ -1,0 +1,580 @@
+
+============================================================================================
+DATA GENERATION
+============================================================================================
+Study 2 survey        N = 1600  ({'DE': 400, 'FR': 400, 'SE': 400, 'BR': 400})
+Study 3A factorial    N = 1200  (2x2x2, 150/cell)
+Study 3B dose         N = 2100  (7 stringency levels)
+Study 3C sacrifice    N = 640  (2x2, 160/cell)
+Analytic flip point at mean precarity: S* = 0.3528
+
+============================================================================================
+STUDY 1  -  MEASUREMENT, RECOVERY, POWER
+============================================================================================
+[Study 1A] Confirmatory factor analysis of the 15-construct measurement model ...
+       chi2  DoF  chi2/df  chi2 p-value      CFI      TLI      NFI    RMSEA      GFI     AGFI        AIC        BIC
+1626.034834 1119 1.453114           0.0 0.984855 0.982744 0.953214 0.016834 0.953214 0.946692 411.967456 1525.16355
+
+[Study 1A] Reliability and convergent validity:
+construct                                 label  n_items  alpha  CR_omega   AVE  min_loading  max_loading  AVE_ok  CR_ok
+       PA                    Perceived autonomy        4  0.847     0.847 0.582        0.735        0.811    True   True
+       CE                   Collective efficacy        3  0.792     0.792 0.560        0.715        0.780    True   True
+      RIA        Restraint identity affirmation        4  0.858     0.858 0.603        0.731        0.824    True   True
+      RSV             Restraint signaling value        3  0.790     0.791 0.559        0.686        0.783    True   True
+       AD               Anticipated deprivation        4  0.854     0.854 0.594        0.750        0.802    True   True
+       PR               Psychological reactance        4  0.838     0.841 0.571        0.681        0.839    True   True
+       CS                    Chosen sufficiency        4  0.860     0.859 0.604        0.749        0.819    True   True
+      SCB       Sufficiency commitment behavior        3  0.820     0.820 0.604        0.752        0.812    True   True
+      BSE              Brand sufficiency equity        4  0.848     0.849 0.586        0.687        0.836    True   True
+      SPS            Sufficiency policy support        3  0.804     0.805 0.579        0.720        0.790    True   True
+      CDC Compensatory displacement consumption        3  0.767     0.767 0.525        0.672        0.774    True   True
+       VS                  Voluntary simplicity        3  0.788     0.790 0.558        0.677        0.812    True   True
+     FRUG                             Frugality        3  0.785     0.786 0.551        0.697        0.771    True   True
+      MAT                           Materialism        3  0.798     0.800 0.572        0.706        0.806    True   True
+       CR                 Constrained restraint        3  0.788     0.789 0.555        0.717        0.783    True   True
+
+[Study 1A] Max HTMT = 0.673 (criterion < .85)
+[Study 1A] HTMT of Chosen Sufficiency vs adjacent constructs:
+VS      0.531
+FRUG    0.345
+MAT     0.344
+CR      0.120
+
+[Study 1B/1C] Monte Carlo: 500 reps x 6 sample sizes ...
+
+[Study 1B] Recovery at N=1600: max |%bias| = 39.35%, mean coverage = 0.958
+
+[Study 1C] Power at N=1600 and required N for 80% power:
+                       path hypothesis  true_b  1600  N_for_80pct
+                 AD<-agency      H1/H9  -0.280 1.000      200.000
+                  AD<-frame         H3  -0.237 1.000      301.493
+            AD<-stringency2         H7   1.313 0.992      732.308
+   AD<-stringency:precarity      H8/H9   0.728 1.000      200.000
+               BSE<-int:sac        H13   0.224 0.206          NaN
+BSE<-intensity|no_sacrifice        H13   0.078 0.054          NaN
+                    CDC<-CS        H12  -0.191 1.000      256.881
+          CDC<-CS:community        H12  -0.108 1.000      607.874
+                  CE<-locus         H2   0.663 1.000      200.000
+     CE<-locus:collectivism         H2   0.219 1.000      270.085
+                     CS<-AD         H6  -0.211 1.000      200.000
+                     CS<-PR         H6  -0.257 1.000      200.000
+                    CS<-RIA         H4   0.314 1.000      200.000
+           CS<-RIA:symbolic        H10   0.105 1.000      483.810
+                    CS<-RSV         H5   0.154 1.000      306.383
+             CS<-stringency         H7   1.308 0.922     1114.894
+            CS<-stringency2         H7  -1.635 0.994      709.489
+                 PA<-agency         H1   0.676 1.000      200.000
+     PA<-locus:collectivism         H2   0.133 0.994      664.463
+                     PR<-AD        H10   0.536 1.000      200.000
+            PR<-AD:symbolic        H10   0.140 1.000      306.849
+                    RIA<-PA         H4   0.375 1.000      200.000
+                 RIA<-frame         H3   0.269 1.000      348.872
+          RSV<-RIA:symbolic         H5   0.117 1.000      372.500
+                    SCB<-CS        H11   0.393 1.000      200.000
+          SCB<-CS:community        H11   0.131 1.000      344.000
+                    SPS<-CS        H14   0.326 1.000      200.000
+     SPS<-CS:growth_endorse        H14  -0.122 1.000      426.667
+
+============================================================================================
+STUDY 2  -  STRUCTURAL MODEL AND CROSS-NATIONAL INVARIANCE
+============================================================================================
+[Study 2A] Fitting the latent structural equation model ...
+     chi2  DoF  chi2 p-value    CFI    TLI    NFI  RMSEA    GFI   AGFI      AIC      BIC
+1859.6941 1110           0.0 0.9746 0.9728 0.9394 0.0206 0.9394 0.9352 227.6754 846.1177
+
+[Study 2A] Standardized structural paths:
+ dv       predictor       b        se  beta_std         p
+ PA          agency  0.7466  0.047529    0.3885       0.0
+ PA           locus  0.3563  0.046243    0.1854       0.0
+ PA           frame  0.2665  0.046087    0.1387       0.0
+ PA      stringency -0.2648  0.089085   -0.0709  0.002958
+ PA       precarity -0.2081  0.021269   -0.2364       0.0
+ CE           locus  0.6163  0.049625    0.3359       0.0
+ CE       community  0.1802  0.023847    0.2001       0.0
+ CE           frame  0.1296  0.048103    0.0706  0.007052
+RIA              PA  0.4175  0.028433    0.4102       0.0
+RIA           frame  0.3170  0.047529    0.1621       0.0
+RIA              CE  0.1452  0.028754    0.1363       0.0
+RIA  growth_endorse -0.1652  0.023468   -0.1684       0.0
+RSV             RIA  0.3993  0.025047    0.4333       0.0
+RSV        symbolic  0.4542  0.022532    0.5042       0.0
+ AD          agency -0.3358  0.037695   -0.1765       0.0
+ AD           frame -0.2629  0.037105   -0.1382       0.0
+ AD      stringency  1.7044  0.076966    0.4608       0.0
+ AD       precarity  0.4449  0.018414    0.5106       0.0
+ AD        symbolic  0.1297  0.018575    0.1364       0.0
+ PR              AD  0.6740  0.029572    0.6489       0.0
+ PR          agency -0.0880  0.045118   -0.0445  0.051255
+ CS             RIA  0.2992  0.026606    0.2963       0.0
+ CS             RSV  0.3661  0.029765    0.3341       0.0
+ CS              CE  0.2373   0.02525    0.2205       0.0
+ CS              PR -0.2836  0.031863   -0.2839       0.0
+ CS              AD -0.1939  0.032584   -0.1869       0.0
+SCB              CS  0.4926  0.031292    0.5057       0.0
+SCB              PR -0.0710  0.029207   -0.0729  0.015065
+BSE              CS  0.2794  0.030273    0.2823       0.0
+BSE              PR -0.2266  0.030322   -0.2291       0.0
+BSE demkt_intensity  0.2573  0.084262    0.0754  0.002262
+BSE demkt_sacrifice  0.2997   0.08508    0.0870  0.000428
+SPS              CS  0.3485  0.028866    0.3703       0.0
+SPS              CE  0.1703  0.031407    0.1682       0.0
+CDC              CS -0.2420  0.030274   -0.2612       0.0
+CDC              PR  0.2490  0.030524    0.2689       0.0
+CDC        symbolic  0.1989  0.024562    0.2174       0.0
+
+[Study 2A] Endogenous latent R^2:
+latent  residual_var_std    r2
+    PA             0.737 0.263
+    CE             0.845 0.155
+   RIA             0.727 0.273
+   RSV             0.553 0.447
+    AD             0.448 0.552
+    PR             0.566 0.434
+    CS             0.417 0.583
+   SCB             0.707 0.293
+   BSE             0.797 0.203
+   SPS             0.797 0.203
+   CDC             0.754 0.246
+
+[Study 2B] Reduced-form canonical specification (all hypothesized terms):
+                       path hypothesis       b     se        t      p  supported
+                 PA<-agency         H1  0.7088 0.0440  16.1011 0.0000       True
+     PA<-locus:collectivism         H2  0.0976 0.0293   3.3305 0.0009       True
+                  CE<-locus         H2  0.5985 0.0464  12.9109 0.0000       True
+     CE<-locus:collectivism         H2  0.1886 0.0308   6.1304 0.0000       True
+                    RIA<-PA         H4  0.3811 0.0214  17.7861 0.0000       True
+                 RIA<-frame         H3  0.3094 0.0426   7.2655 0.0000       True
+          RSV<-RIA:symbolic         H5  0.0967 0.0204   4.7311 0.0000       True
+                 AD<-agency      H1/H9 -0.3362 0.0348  -9.6535 0.0000       True
+                  AD<-frame         H3 -0.2393 0.0348  -6.8691 0.0000       True
+            AD<-stringency2         H7  1.3700 0.2836   4.8300 0.0000       True
+   AD<-stringency:precarity      H8/H9  0.7277 0.0622  11.7076 0.0000       True
+                     PR<-AD        H10  0.5533 0.0208  26.5941 0.0000       True
+            PR<-AD:symbolic        H10  0.1251 0.0205   6.1039 0.0000       True
+                    CS<-RIA         H4  0.3304 0.0203  16.2625 0.0000       True
+                    CS<-RSV         H5  0.1377 0.0226   6.0900 0.0000       True
+                     CS<-PR         H6 -0.2607 0.0224 -11.6187 0.0000       True
+                     CS<-AD         H6 -0.1985 0.0225  -8.8126 0.0000       True
+           CS<-RIA:symbolic        H10  0.1219 0.0186   6.5539 0.0000       True
+                    SCB<-CS        H11  0.3684 0.0239  15.4080 0.0000       True
+          SCB<-CS:community        H11  0.1349 0.0220   6.1416 0.0000       True
+                    CDC<-CS        H12 -0.1846 0.0257  -7.1829 0.0000       True
+          CDC<-CS:community        H12 -0.0935 0.0226  -4.1368 0.0000       True
+               BSE<-int:sac        H13  0.6031 0.2872   2.0994 0.0359       True
+BSE<-intensity|no_sacrifice        H13 -0.0574 0.1657  -0.3462 0.7292       True
+                    SPS<-CS        H14  0.2874 0.0237  12.1050 0.0000       True
+     SPS<-CS:growth_endorse        H14 -0.1042 0.0225  -4.6273 0.0000       True
+             CS<-stringency         H7  1.1873 0.3754   3.1631 0.0016       True
+            CS<-stringency2         H7 -1.4856 0.3713  -4.0013 0.0001       True
+
+  Hypothesized terms supported (correct sign, p < .05): 28/28
+
+[Study 2C] Configural fit by country ...
+country   n    chi2   DoF   CFI   TLI  RMSEA
+     DE 400 735.761 647.0 0.986 0.984  0.019
+     FR 400 765.845 647.0 0.982 0.980  0.021
+     SE 400 817.166 647.0 0.974 0.971  0.026
+     BR 400 803.331 647.0 0.978 0.975  0.025
+
+[Study 2C] Metric-invariance permutation test (150 permutations) ...
+  observed_MAD=0.02015261734029179, perm_p=0.38, null_mean=0.01978312749579007, null_sd=0.0013673064663285558, n_perm=150, invariance_tenable=True
+
+[Study 2C] Multigroup path heterogeneity (400 permutations) ...
+                       path      DE      FR      SE      BR  sd_across_countries  perm_p_heterogeneity  heterogeneous hypothesis
+                 PA<-agency  0.6682  0.7533  0.7656  0.6678               0.0530                0.7750          False         H1
+     PA<-locus:collectivism  0.1124 -0.0021  0.1766  0.1283               0.0757                0.1450          False         H2
+                  CE<-locus  0.5345  0.5865  0.6646  0.5106               0.0682                0.6550          False         H2
+     CE<-locus:collectivism  0.1314  0.1599  0.1611  0.2811               0.0666                0.2900          False         H2
+                    RIA<-PA  0.3730  0.3962  0.3588  0.4178               0.0260                0.7575          False         H4
+                 RIA<-frame  0.3234  0.3173  0.2789  0.3090               0.0197                0.9900          False         H3
+          RSV<-RIA:symbolic  0.0958  0.1691  0.0813  0.0497               0.0506                0.2275          False         H5
+                 AD<-agency -0.2992 -0.2762 -0.4037 -0.3659               0.0589                0.5275          False      H1/H9
+                  AD<-frame -0.1980 -0.2154 -0.3700 -0.1904               0.0850                0.2100          False         H3
+            AD<-stringency2  1.1943  1.0058  1.0220  2.4020               0.6694                0.2400          False         H7
+   AD<-stringency:precarity  0.8036  0.7260  0.5312  0.8872               0.1522                0.2100          False      H8/H9
+                     PR<-AD  0.6052  0.5163  0.5074  0.5981               0.0521                0.1900          False        H10
+            PR<-AD:symbolic  0.2111  0.1037  0.0882  0.0962               0.0579                0.1350          False        H10
+                    CS<-RIA  0.3012  0.3691  0.3777  0.2715               0.0518                0.2100          False         H4
+                    CS<-RSV  0.1998  0.1122  0.1104  0.1363               0.0418                0.4850          False         H5
+                     CS<-PR -0.2582 -0.2942 -0.2754 -0.2080               0.0370                0.6025          False         H6
+                     CS<-AD -0.1755 -0.1897 -0.1588 -0.2444               0.0371                0.5725          False         H6
+           CS<-RIA:symbolic  0.1124  0.1379  0.1032  0.1473               0.0208                0.7950          False        H10
+                    SCB<-CS  0.4256  0.3757  0.2737  0.3939               0.0657                0.1175          False        H11
+          SCB<-CS:community  0.1779  0.1658  0.0516  0.1460               0.0573                0.1400          False        H11
+                    CDC<-CS -0.1552 -0.1889 -0.2144 -0.1813               0.0243                0.8950          False        H12
+          CDC<-CS:community -0.1155 -0.1333 -0.0545 -0.0590               0.0398                0.5275          False        H12
+               BSE<-int:sac  0.4757  0.8715  0.7191  0.3553               0.2332                0.9300          False        H13
+BSE<-intensity|no_sacrifice  0.1737 -0.2603 -0.1701  0.0527               0.1993                0.7750          False        H13
+                    SPS<-CS  0.1977  0.3100  0.3310  0.3297               0.0637                0.0850          False        H14
+     SPS<-CS:growth_endorse -0.1190 -0.1138 -0.0711 -0.0905               0.0221                0.8775          False        H14
+             CS<-stringency  1.2163  0.9017  1.9295  1.0047               0.4632                0.7925          False         H7
+            CS<-stringency2 -1.5644 -1.2644 -1.9200 -1.4448               0.2767                0.9600          False         H7
+
+  Paths differing significantly across countries: none
+[Study 2] Bootstrapping the mediation system (5000 resamples) ...
+                              effect  estimate  boot_se   ci_lo   ci_hi  excludes_zero  boot_p_two_sided
+          H4_serial_agency_PA_RIA_CS    0.0892   0.0097  0.0711  0.1094           True              0.00
+      H4_serial_agency_PA_RIA_RSV_CS    0.0131   0.0025  0.0085  0.0182           True              0.00
+        H1_total_routeA_agency_to_CS    0.1023   0.0104  0.0827  0.1232           True              0.00
+           H1_routeB_agency_AD_PR_CS    0.0485   0.0068  0.0357  0.0623           True              0.00
+              H1_routeB_agency_AD_CS    0.0667   0.0104  0.0476  0.0882           True              0.00
+                 H1_net_agency_to_CS    0.2175   0.0176  0.1849  0.2533           True              0.00
+                    H3_frame_via_RIA    0.1022   0.0152  0.0735  0.1329           True              0.00
+                  H3_frame_via_AD_PR    0.0345   0.0060  0.0234  0.0467           True              0.00
+              H3_frame_via_AD_direct    0.0475   0.0088  0.0315  0.0664           True              0.00
+                        H3_frame_net    0.1842   0.0193  0.1474  0.2229           True              0.00
+         H2_cond_locus_CE_CS@lowColl    0.0780   0.0127  0.0547  0.1041           True              0.00
+        H2_cond_locus_CE_CS@meanColl    0.1139   0.0142  0.0870  0.1425           True              0.00
+        H2_cond_locus_CE_CS@highColl    0.1498   0.0181  0.1154  0.1860           True              0.00
+                     H2_index_modmed    0.0359   0.0065  0.0240  0.0490           True              0.00
+ H9_cond_stringency_AD_PR_CS@lowPrec   -0.3268   0.0362 -0.3994 -0.2589           True              0.00
+H9_cond_stringency_AD_PR_CS@meanPrec   -0.5762   0.0406 -0.6556 -0.4979           True              0.00
+H9_cond_stringency_AD_PR_CS@highPrec   -0.8256   0.0573 -0.9380 -0.7168           True              0.00
+                     H9_index_modmed   -0.2494   0.0255 -0.3015 -0.2010           True              0.00
+                H10_RIA_to_CS@lowSym    0.2084   0.0286  0.1529  0.2639           True              0.00
+                 H10_AD_to_PR@lowSym    0.4281   0.0287  0.3714  0.4833           True              0.00
+               H10_RIA_to_CS@highSym    0.4523   0.0285  0.3977  0.5096           True              0.00
+                H10_AD_to_PR@highSym    0.6784   0.0289  0.6220  0.7346           True              0.00
+         H10_polarization_gap_RouteA    0.2439   0.0384  0.1702  0.3208           True              0.00
+         H10_polarization_gap_RouteB    0.2502   0.0407  0.1705  0.3301           True              0.00
+          H11_cond_CS_to_SCB@lowComm    0.2335   0.0327  0.1702  0.2981           True              0.00
+         H11_cond_CS_to_SCB@meanComm    0.3684   0.0231  0.3231  0.4133           True              0.00
+         H11_cond_CS_to_SCB@highComm    0.5033   0.0296  0.4452  0.5603           True              0.00
+                       H11_index_mod    0.1349   0.0209  0.0942  0.1753           True              0.00
+          H12_cond_CS_to_CDC@lowComm   -0.0911   0.0358 -0.1634 -0.0204           True              0.01
+         H12_cond_CS_to_CDC@meanComm   -0.1846   0.0255 -0.2345 -0.1346           True              0.00
+         H12_cond_CS_to_CDC@highComm   -0.2781   0.0312 -0.3376 -0.2180           True              0.00
+                       H12_index_mod   -0.0935   0.0218 -0.1367 -0.0506           True              0.00
+        H14_cond_CS_to_SPS@lowGrowth    0.3916   0.0318  0.3288  0.4551           True              0.00
+       H14_cond_CS_to_SPS@meanGrowth    0.2874   0.0233  0.2410  0.3321           True              0.00
+       H14_cond_CS_to_SPS@highGrowth    0.1832   0.0323  0.1197  0.2468           True              0.00
+                       H14_index_mod   -0.1042   0.0221 -0.1488 -0.0617           True              0.00
+
+[Study 2] Johnson-Neyman: conditional effect of stringency on CS across precarity
+  interaction b = -0.4004, p = 1.04e-06
+  JN boundaries (precarity, z-units): [np.float64(-1.371), np.float64(-0.236)]
+  stringency significantly REDUCES chosen sufficiency above precarity = -0.203 z
+
+============================================================================================
+STUDY 3  -  EXPERIMENTS: ARCHITECTURE, THE FLIP POINT, SUFFICIENCY-WASHING
+============================================================================================
+[Study 3A] 2x2x2 limit-architecture factorial (N = 1200) ...
+                       term   dv    sum_sq     df       F  PR(>F)  partial_eta_sq
+                  C(agency) CS_c   22.1269    1.0 22.7160  0.0000          0.0187
+                   C(locus) CS_c    4.9405    1.0  5.0721  0.0245          0.0042
+                   C(frame) CS_c    7.6684    1.0  7.8726  0.0051          0.0066
+         C(agency):C(locus) CS_c    0.8250    1.0  0.8470  0.3576          0.0007
+         C(agency):C(frame) CS_c    0.0829    1.0  0.0851  0.7705          0.0001
+          C(locus):C(frame) CS_c    1.6700    1.0  1.7145  0.1907          0.0014
+C(agency):C(locus):C(frame) CS_c    0.6012    1.0  0.6172  0.4322          0.0005
+                   Residual CS_c 1161.0850 1192.0     NaN     NaN             NaN
+
+  Cell means on chosen sufficiency:
+ agency  locus  frame   n  CS_mean  CS_sd  PA_mean  AD_mean  RIA_mean  PR_mean  CS_se
+    0.0    0.0    0.0 150   -0.238  0.979   -0.482    0.228    -0.384    0.264  0.080
+    0.0    0.0    1.0 150   -0.214  0.957   -0.464    0.065    -0.103    0.163  0.078
+    0.0    1.0    0.0 150   -0.177  1.044   -0.331    0.411    -0.250    0.184  0.085
+    0.0    1.0    1.0 150    0.086  0.917   -0.023    0.170     0.178    0.124  0.075
+    1.0    0.0    0.0 150    0.025  0.930    0.127   -0.017    -0.076   -0.110  0.076
+    1.0    0.0    1.0 150    0.171  1.032    0.378   -0.312     0.224   -0.177  0.084
+    1.0    1.0    0.0 150    0.071  1.013    0.281   -0.135     0.048   -0.160  0.083
+    1.0    1.0    1.0 150    0.277  1.015    0.515   -0.410     0.363   -0.289  0.083
+
+  Planned contrast: contrast=chosen/collective/sufficiency vs imposed/individual/reduction, M_best=0.2769, M_worst=-0.2381, diff=0.5150, t=4.4728, p=0.0000, cohens_d=0.5165, n_best=150, n_worst=150
+
+  Design dimension -> route specificity:
+factor   dv  M_high  M_low   diff      t     p  cohens_d
+agency CS_c   0.136 -0.136  0.272  4.746 0.000     0.274
+agency PA_c   0.325 -0.325  0.650 11.904 0.000     0.687
+agency AD_c  -0.219  0.219 -0.437 -7.757 0.000    -0.448
+ locus CS_c   0.064 -0.064  0.128  2.226 0.026     0.129
+ locus PA_c   0.110 -0.110  0.221  3.849 0.000     0.222
+ locus AD_c   0.009 -0.009  0.018  0.318 0.751     0.018
+ frame CS_c   0.080 -0.080  0.160  2.777 0.006     0.160
+ frame PA_c   0.102 -0.102  0.203  3.536 0.000     0.204
+ frame AD_c  -0.122  0.122 -0.244 -4.248 0.000    -0.245
+
+[Study 3B] Flip-point estimation (N = 2100) ...
+  b_linear=2.0337, b_quadratic=-2.5072, p_quadratic=0.0000, r2=0.0388, peak_point_est=0.4056, peak_boot_median=0.4063, peak_ci_lo=0.3683, peak_ci_hi=0.4357, adj_b_linear=1.9543, adj_b_quadratic=-2.3552, adj_p_quadratic=0.0000, adj_peak=0.4149, adj_r2=0.1860, analytic_flip_point_at_mean_precarity=0.3528
+  two-lines: breakpoint=0.40556806787589506, slope_low=1.1659863399171604, p_low=1.0254267098604461e-08, slope_high=-1.347485729499183, p_high=5.494039538167088e-19, inverted_U_supported=True
+
+  Dose-response on chosen sufficiency:
+ stringency   n     CS  CS_se    RIA     AD     PA     PR
+       0.05 300 -0.131  0.054 -0.878 -0.488  0.160 -0.249
+       0.15 300  0.095  0.055 -0.349 -0.484  0.180 -0.354
+       0.30 300  0.189  0.055  0.016 -0.277 -0.036 -0.129
+       0.45 300  0.207  0.054  0.258 -0.188 -0.097 -0.032
+       0.60 300  0.129  0.059  0.341  0.155 -0.082  0.003
+       0.75 300 -0.111  0.058  0.324  0.445 -0.042  0.257
+       0.90 300 -0.377  0.060  0.288  0.838 -0.083  0.503
+
+  H8 - flip point by precarity tercile:
+precarity_tercile   n  mean_precarity  b_quadratic  p_quadratic  peak  peak_boot_median  peak_ci_lo  peak_ci_hi  analytic_flip_point
+              low 700          -1.124       -1.394         0.01 0.513             0.510       0.416       0.684                0.474
+              mid 700           0.018       -2.864         0.00 0.420             0.420       0.362       0.463                0.352
+             high 700           1.113       -3.309         0.00 0.352             0.352       0.292       0.393                0.299
+
+  Peak-shift interaction: b_str_x_prec=0.3515, p_str_x_prec=0.2134, b_str2_x_prec=-0.7901, p_str2_x_prec=0.006056, r2=0.11
+  H8 direct bootstrap test of the flip-point shift:
+    peak_low_precarity = 0.4704
+    peak_high_precarity = 0.3743
+    difference_S_star = -0.0965
+    ci_lo = -0.1781
+    ci_hi = -0.0189
+    boot_p_one_sided_negative = 0.0096
+    H8_supported = True
+    analytic_peak_low = 0.4256
+    analytic_peak_high = 0.3103
+    analytic_difference = -0.1153
+  Two-lines test within precarity halves:
+    low_precarity: breakpoint=0.4704, slope_low=0.8253, p_low=0.0005, slope_high=-0.8396, p_high=0.0005, inverted_U_supported=True
+    high_precarity: breakpoint=0.3743, slope_low=1.5522, p_low=0.0, slope_high=-1.8412, p_high=0.0, inverted_U_supported=True
+
+  Analytic flip points implied by the theory:
+    S_star_at_precarity_-1.5 = 0.4802
+    S_star_at_precarity_-1.0 = 0.4520
+    S_star_at_precarity_-0.5 = 0.3913
+    S_star_at_precarity_+0.0 = 0.3528
+    S_star_at_precarity_+0.5 = 0.3248
+    S_star_at_precarity_+1.0 = 0.3030
+    S_star_at_precarity_+1.5 = 0.2852
+
+[Study 3C] Demarketing intensity x sacrifice on brand sufficiency equity (N = 640) ...
+                           term   sum_sq    df       F  PR(>F)  partial_eta_sq
+                C(intensity_hi)   5.8832   1.0  6.0596  0.0141          0.0094
+                C(sacrifice_hi)   2.4336   1.0  2.5065  0.1139          0.0039
+C(intensity_hi):C(sacrifice_hi)  13.2006   1.0 13.5964  0.0002          0.0209
+                       Residual 617.4827 636.0     NaN     NaN             NaN
+ intensity_hi  sacrifice_hi   n    BSE    sd    se
+            0             0 160 -0.014 0.998 0.079
+            0             1 160 -0.178 0.929 0.073
+            1             0 160 -0.109 0.984 0.078
+            1             1 160  0.301 1.028 0.081
+
+  Simple effects of demarketing intensity:
+sacrifice  M_high_intensity  M_low_intensity  effect_of_demarketing_intensity       t      p  cohens_d
+      low           -0.1094          -0.0139                          -0.0955 -0.8618 0.3894   -0.0964
+     high            0.3012          -0.1778                           0.4790  4.3729 0.0000    0.4889
+
+============================================================================================
+STUDY 4  -  MARKET-SYSTEMS MODEL OF DEMARKETING PROPAGATION
+============================================================================================
+[Study 4A] Named regime scenarios ...
+scenario   regime  throughput_reduction  leakage  relative_profit_demarketers  prop_rate  cs_mean_treat  rebound_mean_treat  n_exits_demarketers  n_exits_conventional   PMV
+futility futility                0.0113   0.7398                       0.3223      0.000         0.3780              0.0000                    0                     0 False
+collapse collapse                0.0000   1.0000                       0.0000      0.125         0.3964              0.0000                    1                     0 False
+   niche    niche                0.0999   0.4177                       1.9349      0.250         0.5074              0.0000                    0                     0 False
+ tipping  tipping                0.3910  -1.4432                       5.6835      0.750         0.7808              0.0000                    0                     0  True
+backlash backlash               -0.2357   1.5000                       1.8047      0.250         0.2126              0.5384                    0                     0 False
+
+[Study 4B] Tipping surface sweep over (contagion x reconfiguration x policy) ...
+  regime frequencies by policy level:
+regime  collapse  futility  niche  strained  tipping
+policy                                              
+0.0        0.198     0.383  0.136     0.012    0.272
+0.3        0.173     0.086  0.062     0.173    0.506
+0.6        0.185     0.000  0.012     0.111    0.691
+
+[Study 4B] lambda* (minimum contagion for post-growth market viability):
+policy          0.0    0.3    0.6
+r_demarketer                     
+0.000           NaN    NaN    NaN
+0.125           NaN    NaN  0.525
+0.250         0.600  0.525  0.375
+0.375         0.525  0.450  0.225
+0.500         0.525  0.300  0.000
+0.625         0.375  0.000  0.000
+0.750         0.300  0.000  0.000
+0.875         0.075  0.000  0.000
+1.000         0.000  0.000  0.000
+
+[Study 4B] maximum attainable throughput reduction:
+policy          0.0    0.3    0.6
+r_demarketer                     
+0.000         0.007  0.048  0.084
+0.125         0.055  0.188  0.396
+0.250         0.155  0.343  0.387
+0.375         0.303  0.366  0.392
+0.500         0.334  0.368  0.398
+0.625         0.350  0.370  0.403
+0.750         0.353  0.374  0.398
+0.875         0.356  0.378  0.401
+1.000         0.359  0.382  0.404
+
+[Study 4B] H16 complementarity - PMV rate by quadrant:
+ policy  lambda_hi  r_hi  n  PMV_rate  mean_reduction  mean_relative_profit  mean_leakage
+    0.0      False False 25      0.00           0.018                 0.471         0.768
+    0.0      False  True 20      0.50           0.118                 1.781         0.166
+    0.0       True False 20      0.25           0.081                 0.861         0.108
+    0.0       True  True 16      1.00           0.297                 4.560        -1.079
+    0.3      False False 25      0.04           0.045                 0.417         0.530
+    0.3      False  True 20      1.00           0.240                 2.596        -0.520
+    0.3       True False 20      0.45           0.194                 1.281        -0.893
+    0.3       True  True 16      1.00           0.357                 5.739        -1.452
+    0.6      False False 25      0.28           0.114                 0.557         0.113
+    0.6      False  True 20      1.00           0.296                 3.338        -0.861
+    0.6       True False 20      0.70           0.291                 1.908        -1.585
+    0.6       True  True 16      1.00           0.385                 6.738        -1.664
+
+[Study 4C] Credibility-viability tradeoff in reconfiguration ...
+ phi_credibility_erosion  r_argmax  max_reduction  reduction_at_r1  interior_optimum
+                     0.0       1.0         0.4170           0.4170             False
+                     0.4       1.0         0.3504           0.3504             False
+                     0.8       1.0         0.2739           0.2739             False
+                     1.0       1.0         0.2086           0.2086             False
+  (r sweep at phi = 0.4, the default credibility-erosion rate:)
+ r_demarketer  throughput_reduction  relative_profit_demarketers  leakage   regime   PMV
+         0.00                0.0336                       0.0000   0.8621 collapse False
+         0.05                0.0336                       0.0000   0.8624 collapse False
+         0.10                0.0492                       0.3148   0.6220 collapse False
+         0.15                0.0691                       0.3023   0.0596 strained False
+         0.20                0.0694                       0.3647   0.0636 strained False
+         0.25                0.0696                       0.4281   0.0675 strained False
+         0.30                0.0699                       0.4924   0.0713 strained False
+         0.35                0.1332                       0.7910  -0.3641 strained False
+         0.40                0.2430                       1.3452  -0.8359  tipping  True
+         0.45                0.2819                       1.7169  -1.1064  tipping  True
+         0.50                0.3154                       2.1257  -1.2766  tipping  True
+         0.55                0.3004                       2.2356  -1.2336  tipping  True
+         0.60                0.3027                       2.4865  -1.2054  tipping  True
+         0.65                0.3050                       2.7514  -1.1792  tipping  True
+         0.70                0.3073                       3.0321  -1.1549  tipping  True
+         0.75                0.3406                       3.6904  -1.2364  tipping  True
+         0.80                0.3425                       4.0544  -1.2052  tipping  True
+         0.85                0.3444                       4.4503  -1.1765  tipping  True
+         0.90                0.3464                       4.8831  -1.1500  tipping  True
+         0.95                0.3484                       5.3590  -1.1257  tipping  True
+         1.00                0.3504                       5.8848  -1.1032  tipping  True
+
+[Study 4D] Inequality experiment (P20) ...
+ precarity_mean  precarity_sd  lambda_star  max_throughput_reduction  share_below_flip_point  mean_flip_point_S_star  required_stringency
+            0.0           0.6         0.56                    0.2142                  0.0002                  0.3528                 0.65
+            0.0           1.0         0.56                    0.2135                  0.0162                  0.3528                 0.65
+            0.0           1.4         0.56                    0.2126                  0.0623                  0.3528                 0.65
+            0.5           0.6         0.60                    0.2185                  0.0030                  0.3248                 0.65
+            0.5           1.0         0.60                    0.2172                  0.0499                  0.3248                 0.65
+            0.5           1.4         0.60                    0.2098                  0.1167                  0.3248                 0.65
+            1.0           0.6         0.64                    0.1369                  0.0290                  0.3030                 0.65
+            1.0           1.0         0.64                    0.1352                  0.1243                  0.3030                 0.65
+            1.0           1.4         0.64                    0.1331                  0.2044                  0.3030                 0.65
+            1.5           0.6         0.68                    0.1294                  0.1416                  0.2852                 0.65
+            1.5           1.0         0.68                    0.1279                  0.2584                  0.2852                 0.65
+            1.5           1.4         0.68                    0.1256                  0.3216                  0.2852                 0.65
+            2.0           0.6          NaN                    0.0187                  0.4100                  0.2702                 0.65
+            2.0           1.0          NaN                    0.0184                  0.4442                  0.2702                 0.65
+            2.0           1.4          NaN                    0.0181                  0.4586                  0.2702                 0.65
+            2.5           0.6          NaN                    0.0180                  0.7288                  0.2574                 0.65
+            2.5           1.0          NaN                    0.0177                  0.6403                  0.2574                 0.65
+            2.5           1.4          NaN                    0.0174                  0.5992                  0.2574                 0.65
+
+[Study 4E] One-factor-at-a-time sensitivity ...
+           parameter direction  value  throughput_reduction  d_throughput_reduction  relative_profit_demarketers  d_relative_profit  regime  PMV
+        d_demarketer      +20%  0.840                0.4670                  0.0724                       6.1368             0.0771 tipping True
+        d_demarketer      -20%  0.560                0.3357                 -0.0589                       6.4105             0.3509 tipping True
+elasticity_reduction      +20%  0.660                0.4373                  0.0426                       6.9837             0.9240 tipping True
+elasticity_reduction      -20%  0.440                0.3613                 -0.0333                       5.6139            -0.4458 tipping True
+         theta_relax      -20%  0.096                0.4184                  0.0237                       5.9712            -0.0885 tipping True
+      imitation_rate      -20%  0.064                0.3738                 -0.0208                       5.8897            -0.1700 tipping True
+         theta_relax      +20%  0.144                0.3763                 -0.0183                       6.0896             0.0299 tipping True
+durability_unit_drag      +20%  0.360                0.4093                  0.0147                       5.5264            -0.5332 tipping True
+durability_unit_drag      -20%  0.240                0.3800                 -0.0147                       6.5929             0.5332 tipping True
+            beta_leg      +20%  1.440                0.4085                  0.0138                       7.0827             1.0230 tipping True
+        kappa_signal      -20%  0.064                0.3812                 -0.0134                       6.0546            -0.0051 tipping True
+           beta_disc      -20%  0.680                0.4081                  0.0134                       7.0894             1.0297 tipping True
+           beta_disc      +20%  1.020                0.3818                 -0.0129                       5.0980            -0.9616 tipping True
+            beta_leg      -20%  0.960                0.3818                 -0.0129                       5.1261            -0.9336 tipping True
+        kappa_signal      +20%  0.096                0.4074                  0.0128                       6.0625             0.0029 tipping True
+      imitation_rate      +20%  0.096                0.4064                  0.0117                       6.1932             0.1336 tipping True
+
+============================================================================================
+FIGURES
+============================================================================================
+[figures] rendering ...
+[figures] written to /projects/sandbox/MetaV/analysis/output/figures
+
+============================================================================================
+HEADLINE NUMBERS
+============================================================================================
+{
+  "study1": {
+    "cfa_CFI": 0.9848554629125065,
+    "cfa_TLI": 0.9827441601550007,
+    "cfa_RMSEA": 0.016833701552780425,
+    "cfa_chi2_df": 1.4531142392409633,
+    "min_AVE": 0.5247010812989092,
+    "min_CR": 0.767489702624392,
+    "max_HTMT": 0.6726533236501142,
+    "max_abs_bias_at_1600": 0.08458163966521884,
+    "max_abs_pct_bias_at_1600_nontrivial": 37.71979314518154,
+    "mean_coverage_at_1600": 0.9578571428571429,
+    "min_coverage_at_1600": 0.926,
+    "mc_reps": 500
+  },
+  "study2": {
+    "sem_CFI": 0.9745815740699888,
+    "sem_TLI": 0.9728412133756817,
+    "sem_RMSEA": 0.020552106226699864,
+    "CS_r2": 0.5833486034396039,
+    "n_hypothesized_terms": 28,
+    "n_supported": 28,
+    "metric_invariance_p": 0.38,
+    "n_heterogeneous_paths": 0,
+    "n_indirect_effects_excluding_zero": 36,
+    "n_indirect_effects": 36
+  },
+  "study3": {
+    "3A_contrast_d": 0.5164790427874646,
+    "3A_contrast_p": 1.0995105445496216e-05,
+    "3B_b_quadratic": -2.507243201987727,
+    "3B_p_quadratic": 8.027179972086609e-16,
+    "3B_peak": 0.4063324758153958,
+    "3B_peak_ci": [
+      0.36826369548188814,
+      0.4357271783347203
+    ],
+    "3B_analytic_peak": 0.35280845553791945,
+    "3B_inverted_U_supported": true,
+    "3B_peak_shift_high_minus_low": -0.09646165800280951,
+    "3B_peak_shift_ci": [
+      -0.17812327223090763,
+      -0.01894981875514228
+    ],
+    "3B_H8_supported": true,
+    "3C_effect_low_sacrifice": -0.09547950945553858,
+    "3C_p_low_sacrifice": 0.3894402435695744,
+    "3C_effect_high_sacrifice": 0.4789888724352852,
+    "3C_p_high_sacrifice": 1.6682278803440923e-05
+  },
+  "study4": {
+    "regimes_observed": [
+      "collapse",
+      "futility",
+      "niche",
+      "strained",
+      "tipping"
+    ],
+    "scenario_regimes": {
+      "futility": "futility",
+      "collapse": "collapse",
+      "niche": "niche",
+      "tipping": "tipping",
+      "backlash": "backlash"
+    },
+    "futility_leakage": 0.7397797303922184,
+    "tipping_reduction": 0.39104776133349795,
+    "tipping_leakage": -1.4431705982868297,
+    "backlash_reduction": -0.23569025457447987,
+    "PMV_rate_low_lambda_low_r_policy0": 0.0,
+    "PMV_rate_high_lambda_low_r_policy0": 0.25,
+    "PMV_rate_low_lambda_high_r_policy0": 0.5,
+    "PMV_rate_high_lambda_high_r_policy0": 1.0,
+    "interior_optimum_found": false,
+    "lambda_star_at_precarity_0": 0.56,
+    "lambda_star_at_precarity_1": 0.64,
+    "viability_unattainable_above_precarity": 2.0
+  }
+}
+
+Total runtime: 808.3s
+Tables -> /projects/sandbox/MetaV/analysis/output/tables
+Figures -> /projects/sandbox/MetaV/analysis/output/figures
