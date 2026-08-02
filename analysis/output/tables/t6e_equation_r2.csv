@@ -1,0 +1,13 @@
+equation,dv,r2,adj_r2,n
+AD_c ~ agency + frame + stringency + I(stringency**2) + precarity + symbolic + stringency:precarity,AD_c,0.5183204431941636,0.5162025054443893,1600
+BSE_c ~ demkt_intensity + demkt_sacrifice + demkt_intensity:demkt_sacrifice + CS_c + PR_c,BSE_c,0.16159836284424078,0.15896849572643723,1600
+CDC_c ~ CS_c + community + symbolic + PR_c + CS_c:community,CDC_c,0.18092472437508333,0.1783554794703628,1600
+CE_c ~ locus + community + frame + locus:collectivism,CE_c,0.14369697538408133,0.14154950698379065,1600
+CS_c ~ RIA_c + RSV_c + CE_c + PR_c + AD_c + RIA_c:symbolic + symbolic,CS_c,0.45927896922784506,0.4569014270071132,1600
+CS_c ~ stringency + I(stringency**2) + precarity + stringency:precarity + agency + locus + frame + symbolic,CS_c,0.1763386545101735,0.17219705126446727,1600
+PA_c ~ agency + locus + frame + stringency + precarity + locus:collectivism,PA_c,0.23187144690510542,0.2289783073454259,1600
+PR_c ~ AD_c + agency + symbolic + AD_c:symbolic,PR_c,0.34356784665017415,0.34192162181418717,1600
+RIA_c ~ PA_c + frame + CE_c + growth_endorse + stringency,RIA_c,0.290964361888181,0.28874028523161943,1600
+RSV_c ~ RIA_c + symbolic + RIA_c:symbolic,RSV_c,0.33532181495418145,0.33407241986950886,1600
+SCB_c ~ CS_c + community + PR_c + CS_c:community,SCB_c,0.22628757656577814,0.22434723193020645,1600
+SPS_c ~ CS_c + growth_endorse + CE_c + CS_c:growth_endorse,SPS_c,0.17293454907641104,0.17086040374494127,1600

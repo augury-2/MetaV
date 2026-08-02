@@ -1,0 +1,2 @@
+peak_low_precarity,peak_high_precarity,difference_S_star,ci_lo,ci_hi,boot_p_one_sided_negative,H8_supported,analytic_peak_low,analytic_peak_high,analytic_difference
+0.47040496465020043,0.37431959812230664,-0.09646165800280951,-0.17812327223090763,-0.01894981875514228,0.0096,True,0.4256022079721033,0.3102625607430062,-0.11533964722909712

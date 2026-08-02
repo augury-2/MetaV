@@ -1,0 +1,79 @@
+{
+  "study1": {
+    "cfa_CFI": 0.9848554629125065,
+    "cfa_TLI": 0.9827441601550007,
+    "cfa_RMSEA": 0.016833701552780425,
+    "cfa_chi2_df": 1.4531142392409633,
+    "min_AVE": 0.5247010812989092,
+    "min_CR": 0.767489702624392,
+    "max_HTMT": 0.6726533236501142,
+    "max_abs_bias_at_1600": 0.08458163966521884,
+    "max_abs_pct_bias_at_1600_nontrivial": 37.71979314518154,
+    "mean_coverage_at_1600": 0.9578571428571429,
+    "min_coverage_at_1600": 0.926,
+    "mc_reps": 500
+  },
+  "study2": {
+    "sem_CFI": 0.9745815740699888,
+    "sem_TLI": 0.9728412133756817,
+    "sem_RMSEA": 0.020552106226699864,
+    "CS_r2": 0.5833486034396039,
+    "n_hypothesized_terms": 28,
+    "n_supported": 28,
+    "metric_invariance_p": 0.38,
+    "n_heterogeneous_paths": 0,
+    "n_indirect_effects_excluding_zero": 36,
+    "n_indirect_effects": 36
+  },
+  "study3": {
+    "3A_contrast_d": 0.5164790427874646,
+    "3A_contrast_p": 1.0995105445496216e-05,
+    "3B_b_quadratic": -2.507243201987727,
+    "3B_p_quadratic": 8.027179972086609e-16,
+    "3B_peak": 0.4063324758153958,
+    "3B_peak_ci": [
+      0.36826369548188814,
+      0.4357271783347203
+    ],
+    "3B_analytic_peak": 0.35280845553791945,
+    "3B_inverted_U_supported": true,
+    "3B_peak_shift_high_minus_low": -0.09646165800280951,
+    "3B_peak_shift_ci": [
+      -0.17812327223090763,
+      -0.01894981875514228
+    ],
+    "3B_H8_supported": true,
+    "3C_effect_low_sacrifice": -0.09547950945553858,
+    "3C_p_low_sacrifice": 0.3894402435695744,
+    "3C_effect_high_sacrifice": 0.4789888724352852,
+    "3C_p_high_sacrifice": 1.6682278803440923e-05
+  },
+  "study4": {
+    "regimes_observed": [
+      "collapse",
+      "futility",
+      "niche",
+      "strained",
+      "tipping"
+    ],
+    "scenario_regimes": {
+      "futility": "futility",
+      "collapse": "collapse",
+      "niche": "niche",
+      "tipping": "tipping",
+      "backlash": "backlash"
+    },
+    "futility_leakage": 0.7397797303922184,
+    "tipping_reduction": 0.39104776133349795,
+    "tipping_leakage": -1.4431705982868297,
+    "backlash_reduction": -0.23569025457447987,
+    "PMV_rate_low_lambda_low_r_policy0": 0.0,
+    "PMV_rate_high_lambda_low_r_policy0": 0.25,
+    "PMV_rate_low_lambda_high_r_policy0": 0.5,
+    "PMV_rate_high_lambda_high_r_policy0": 1.0,
+    "interior_optimum_found": false,
+    "lambda_star_at_precarity_0": 0.56,
+    "lambda_star_at_precarity_1": 0.64,
+    "viability_unattainable_above_precarity": 2.0
+  }
+}
