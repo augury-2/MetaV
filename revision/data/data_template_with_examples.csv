@@ -1,0 +1,4 @@
+respondent_id,group,country,role,firm_size,employees,experience,sector,ems,GSCI1,GSCI2,GSCI3,GSCI4,GSCI5,RP1,RP2,RP3,RP4,DI1,DI2,DI3,DI4,DI5,TMC1,TMC2,TMC3,TMC4,SP1,SP2,SP3,SP4,CBI1,CBI2,CBI3,CBI4,KSR1,KSR2,KSR3,KSR4,GLP1,GLP2,GLP3,GLP4
+1,developing,Bangladesh,logistics_manager,medium,240,5to10,manufacturing,0,3,3,2,3,3,4,4,3,4,2,3,2,3,3,3,3,2,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3
+2,emerging,India,sc_director,large,1200,gt10,3pl_logistics,1,4,4,4,4,5,4,4,4,5,4,4,5,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4
+3,emerging,Vietnam,ops_sustainability,medium,410,lt5,distribution_retail,1,4,3,4,4,4,4,4,5,4,4,4,4,4,4,5,4,4,4,4,3,4,4,4,4,3,4,4,4,4,4,4,4,4
